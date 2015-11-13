@@ -1,6 +1,6 @@
 {
   "name": "AngularGradientLayer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "summary": "The Angular Gradient Layer that was missing in your iOS project",
   "description": "Create beautiful angular gradient at CALayer level without worry about anything!",
   "homepage": "https://github.com/Gruppio/AngularGradientLayer",
@@ -11,7 +11,7 @@
   "authors": "Michele Gruppioni",
   "social_media_url": "http://www.michelegruppioni.com",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.1"
   },
   "source": {
     "git": "https://github.com/Gruppio/AngularGradientLayer.git",

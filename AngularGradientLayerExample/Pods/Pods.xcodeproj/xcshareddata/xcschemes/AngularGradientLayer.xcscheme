@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EF954A0017D0EC113001361F'
+               BlueprintIdentifier = 'FA0C56C5AAE161D55042741A'
                BlueprintName = 'AngularGradientLayer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AngularGradientLayer.framework'>
