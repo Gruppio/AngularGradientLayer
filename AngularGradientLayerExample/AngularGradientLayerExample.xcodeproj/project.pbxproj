@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9055111C1BF6A1E2008E4CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9055111B1BF6A1E2008E4CA0 /* AppDelegate.swift */; };
+		9055111E1BF6A1E2008E4CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9055111D1BF6A1E2008E4CA0 /* ViewController.swift */; };
+		905511211BF6A1E2008E4CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9055111F1BF6A1E2008E4CA0 /* Main.storyboard */; };
+		905511231BF6A1E2008E4CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905511221BF6A1E2008E4CA0 /* Assets.xcassets */; };
+		905511261BF6A1E2008E4CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905511241BF6A1E2008E4CA0 /* LaunchScreen.storyboard */; };
+		905511311BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905511301BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.swift */; };
+		9055113C1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9055113B1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.swift */; };
+		B08A1FB8040901F1AF4C7EFF /* Pods_AngularGradientLayerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677C04ECE8B9A3655E76CE4E /* Pods_AngularGradientLayerExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9055112D1BF6A1E2008E4CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905511101BF6A1E2008E4CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905511171BF6A1E2008E4CA0;
+			remoteInfo = AngularGradientLayerExample;
+		};
+		905511381BF6A1E2008E4CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905511101BF6A1E2008E4CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905511171BF6A1E2008E4CA0;
+			remoteInfo = AngularGradientLayerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118C49CF340E6781DF1DF998 /* Pods-AngularGradientLayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngularGradientLayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngularGradientLayerExample/Pods-AngularGradientLayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		677C04ECE8B9A3655E76CE4E /* Pods_AngularGradientLayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngularGradientLayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905511181BF6A1E2008E4CA0 /* AngularGradientLayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngularGradientLayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9055111B1BF6A1E2008E4CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9055111D1BF6A1E2008E4CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		905511201BF6A1E2008E4CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905511221BF6A1E2008E4CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905511251BF6A1E2008E4CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905511271BF6A1E2008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9055112C1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularGradientLayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905511301BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLayerExampleTests.swift; sourceTree = "<group>"; };
+		905511321BF6A1E2008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905511371BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularGradientLayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9055113B1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLayerExampleUITests.swift; sourceTree = "<group>"; };
+		9055113D1BF6A1E2008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37E3E5F05772E7F8E2C8C44 /* Pods-AngularGradientLayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngularGradientLayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngularGradientLayerExample/Pods-AngularGradientLayerExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905511151BF6A1E2008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A1FB8040901F1AF4C7EFF /* Pods_AngularGradientLayerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905511291BF6A1E2008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905511341BF6A1E2008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EED950AF179E02E469ACA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				118C49CF340E6781DF1DF998 /* Pods-AngularGradientLayerExample.debug.xcconfig */,
+				D37E3E5F05772E7F8E2C8C44 /* Pods-AngularGradientLayerExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		154038E51563A4926600BC40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				677C04ECE8B9A3655E76CE4E /* Pods_AngularGradientLayerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9055110F1BF6A1E2008E4CA0 = {
+			isa = PBXGroup;
+			children = (
+				9055111A1BF6A1E2008E4CA0 /* AngularGradientLayerExample */,
+				9055112F1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests */,
+				9055113A1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests */,
+				905511191BF6A1E2008E4CA0 /* Products */,
+				0EED950AF179E02E469ACA3F /* Pods */,
+				154038E51563A4926600BC40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		905511191BF6A1E2008E4CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905511181BF6A1E2008E4CA0 /* AngularGradientLayerExample.app */,
+				9055112C1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.xctest */,
+				905511371BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9055111A1BF6A1E2008E4CA0 /* AngularGradientLayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				9055111B1BF6A1E2008E4CA0 /* AppDelegate.swift */,
+				9055111D1BF6A1E2008E4CA0 /* ViewController.swift */,
+				9055111F1BF6A1E2008E4CA0 /* Main.storyboard */,
+				905511221BF6A1E2008E4CA0 /* Assets.xcassets */,
+				905511241BF6A1E2008E4CA0 /* LaunchScreen.storyboard */,
+				905511271BF6A1E2008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLayerExample;
+			sourceTree = "<group>";
+		};
+		9055112F1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				905511301BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.swift */,
+				905511321BF6A1E2008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLayerExampleTests;
+			sourceTree = "<group>";
+		};
+		9055113A1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9055113B1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.swift */,
+				9055113D1BF6A1E2008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLayerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905511171BF6A1E2008E4CA0 /* AngularGradientLayerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905511401BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExample" */;
+			buildPhases = (
+				9C31537EC2B81CAABCFFFA4E /* Check Pods Manifest.lock */,
+				905511141BF6A1E2008E4CA0 /* Sources */,
+				905511151BF6A1E2008E4CA0 /* Frameworks */,
+				905511161BF6A1E2008E4CA0 /* Resources */,
+				90A41847DD16530A7547D06F /* Embed Pods Frameworks */,
+				B7260A9A8B65DBA054B8BEB6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngularGradientLayerExample;
+			productName = AngularGradientLayerExample;
+			productReference = 905511181BF6A1E2008E4CA0 /* AngularGradientLayerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9055112B1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905511431BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExampleTests" */;
+			buildPhases = (
+				905511281BF6A1E2008E4CA0 /* Sources */,
+				905511291BF6A1E2008E4CA0 /* Frameworks */,
+				9055112A1BF6A1E2008E4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9055112E1BF6A1E2008E4CA0 /* PBXTargetDependency */,
+			);
+			name = AngularGradientLayerExampleTests;
+			productName = AngularGradientLayerExampleTests;
+			productReference = 9055112C1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905511361BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905511461BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExampleUITests" */;
+			buildPhases = (
+				905511331BF6A1E2008E4CA0 /* Sources */,
+				905511341BF6A1E2008E4CA0 /* Frameworks */,
+				905511351BF6A1E2008E4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905511391BF6A1E2008E4CA0 /* PBXTargetDependency */,
+			);
+			name = AngularGradientLayerExampleUITests;
+			productName = AngularGradientLayerExampleUITests;
+			productReference = 905511371BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905511101BF6A1E2008E4CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michele Gruppioni";
+				TargetAttributes = {
+					905511171BF6A1E2008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9055112B1BF6A1E2008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 905511171BF6A1E2008E4CA0;
+					};
+					905511361BF6A1E2008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 905511171BF6A1E2008E4CA0;
+					};
+				};
+			};
+			buildConfigurationList = 905511131BF6A1E2008E4CA0 /* Build configuration list for PBXProject "AngularGradientLayerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9055110F1BF6A1E2008E4CA0;
+			productRefGroup = 905511191BF6A1E2008E4CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905511171BF6A1E2008E4CA0 /* AngularGradientLayerExample */,
+				9055112B1BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests */,
+				905511361BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905511161BF6A1E2008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905511261BF6A1E2008E4CA0 /* LaunchScreen.storyboard in Resources */,
+				905511231BF6A1E2008E4CA0 /* Assets.xcassets in Resources */,
+				905511211BF6A1E2008E4CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9055112A1BF6A1E2008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905511351BF6A1E2008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90A41847DD16530A7547D06F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngularGradientLayerExample/Pods-AngularGradientLayerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C31537EC2B81CAABCFFFA4E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7260A9A8B65DBA054B8BEB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngularGradientLayerExample/Pods-AngularGradientLayerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905511141BF6A1E2008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9055111E1BF6A1E2008E4CA0 /* ViewController.swift in Sources */,
+				9055111C1BF6A1E2008E4CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905511281BF6A1E2008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905511311BF6A1E2008E4CA0 /* AngularGradientLayerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905511331BF6A1E2008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9055113C1BF6A1E2008E4CA0 /* AngularGradientLayerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9055112E1BF6A1E2008E4CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905511171BF6A1E2008E4CA0 /* AngularGradientLayerExample */;
+			targetProxy = 9055112D1BF6A1E2008E4CA0 /* PBXContainerItemProxy */;
+		};
+		905511391BF6A1E2008E4CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905511171BF6A1E2008E4CA0 /* AngularGradientLayerExample */;
+			targetProxy = 905511381BF6A1E2008E4CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9055111F1BF6A1E2008E4CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905511201BF6A1E2008E4CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905511241BF6A1E2008E4CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905511251BF6A1E2008E4CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9055113E1BF6A1E2008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9055113F1BF6A1E2008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905511411BF6A1E2008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118C49CF340E6781DF1DF998 /* Pods-AngularGradientLayerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngularGradientLayerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		905511421BF6A1E2008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37E3E5F05772E7F8E2C8C44 /* Pods-AngularGradientLayerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngularGradientLayerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		905511441BF6A1E2008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngularGradientLayerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularGradientLayerExample.app/AngularGradientLayerExample";
+			};
+			name = Debug;
+		};
+		905511451BF6A1E2008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngularGradientLayerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularGradientLayerExample.app/AngularGradientLayerExample";
+			};
+			name = Release;
+		};
+		905511471BF6A1E2008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngularGradientLayerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngularGradientLayerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		905511481BF6A1E2008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngularGradientLayerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLayerExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngularGradientLayerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905511131BF6A1E2008E4CA0 /* Build configuration list for PBXProject "AngularGradientLayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9055113E1BF6A1E2008E4CA0 /* Debug */,
+				9055113F1BF6A1E2008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905511401BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905511411BF6A1E2008E4CA0 /* Debug */,
+				905511421BF6A1E2008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905511431BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905511441BF6A1E2008E4CA0 /* Debug */,
+				905511451BF6A1E2008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905511461BF6A1E2008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLayerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905511471BF6A1E2008E4CA0 /* Debug */,
+				905511481BF6A1E2008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 905511101BF6A1E2008E4CA0 /* Project object */;
+}

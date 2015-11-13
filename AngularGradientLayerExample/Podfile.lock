@@ -1,0 +1,14 @@
+PODS:
+  - AngularGradientLayer (1.0.0)
+
+DEPENDENCIES:
+  - AngularGradientLayer (from `../`)
+
+EXTERNAL SOURCES:
+  AngularGradientLayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AngularGradientLayer: a846c2921514c993cba7e73014d731132b4e9b79
+
+COCOAPODS: 0.39.0

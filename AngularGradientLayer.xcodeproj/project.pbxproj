@@ -395,6 +395,7 @@
 				900CED211BF53C0A006F9ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		900CED221BF53C0A006F9ACE /* Build configuration list for PBXNativeTarget "AngularGradientLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				900CED241BF53C0A006F9ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

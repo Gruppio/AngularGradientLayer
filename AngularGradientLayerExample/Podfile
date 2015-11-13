@@ -1,0 +1,19 @@
+
+ platform :ios, '9.1'
+
+ source 'https://github.com/CocoaPods/Specs.git'
+
+ use_frameworks!
+
+target 'AngularGradientLayerExample' do
+    pod 'AngularGradientLayer', :path => "../"
+end
+
+target 'AngularGradientLayerExampleTests' do
+
+end
+
+target 'AngularGradientLayerExampleUITests' do
+
+end
+

@@ -1,0 +1,6 @@
+framework module AngularGradientLayer {
+  umbrella header "AngularGradientLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

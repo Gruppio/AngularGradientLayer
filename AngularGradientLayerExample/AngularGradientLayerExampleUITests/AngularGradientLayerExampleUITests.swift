@@ -1,6 +1,6 @@
 //
-//  AngularGradientLabelExampleUITests.swift
-//  AngularGradientLabelExampleUITests
+//  AngularGradientLayerExampleUITests.swift
+//  AngularGradientLayerExampleUITests
 //
 //  Created by Michele Gruppioni on 13/11/15.
 //  Copyright © 2015 Michele Gruppioni. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class AngularGradientLabelExampleUITests: XCTestCase {
+class AngularGradientLayerExampleUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
