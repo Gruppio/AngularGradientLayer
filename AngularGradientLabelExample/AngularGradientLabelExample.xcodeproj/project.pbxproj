@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905510A81BF6977B008E4CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905510A71BF6977B008E4CA0 /* AppDelegate.swift */; };
+		905510AA1BF6977B008E4CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905510A91BF6977B008E4CA0 /* ViewController.swift */; };
+		905510AD1BF6977B008E4CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905510AB1BF6977B008E4CA0 /* Main.storyboard */; };
+		905510AF1BF6977B008E4CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905510AE1BF6977B008E4CA0 /* Assets.xcassets */; };
+		905510B21BF6977B008E4CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905510B01BF6977B008E4CA0 /* LaunchScreen.storyboard */; };
+		905510BD1BF6977B008E4CA0 /* AngularGradientLabelExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905510BC1BF6977B008E4CA0 /* AngularGradientLabelExampleTests.swift */; };
+		905510C81BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905510C71BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		905510B91BF6977B008E4CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9055109C1BF6977B008E4CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905510A31BF6977B008E4CA0;
+			remoteInfo = AngularGradientLabelExample;
+		};
+		905510C41BF6977B008E4CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9055109C1BF6977B008E4CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905510A31BF6977B008E4CA0;
+			remoteInfo = AngularGradientLabelExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		905510A41BF6977B008E4CA0 /* AngularGradientLabelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngularGradientLabelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905510A71BF6977B008E4CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		905510A91BF6977B008E4CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		905510AC1BF6977B008E4CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905510AE1BF6977B008E4CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905510B11BF6977B008E4CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905510B31BF6977B008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905510B81BF6977B008E4CA0 /* AngularGradientLabelExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularGradientLabelExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905510BC1BF6977B008E4CA0 /* AngularGradientLabelExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLabelExampleTests.swift; sourceTree = "<group>"; };
+		905510BE1BF6977B008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905510C31BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularGradientLabelExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905510C71BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLabelExampleUITests.swift; sourceTree = "<group>"; };
+		905510C91BF6977B008E4CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905510A11BF6977B008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510B51BF6977B008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510C01BF6977B008E4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9055109B1BF6977B008E4CA0 = {
+			isa = PBXGroup;
+			children = (
+				905510A61BF6977B008E4CA0 /* AngularGradientLabelExample */,
+				905510BB1BF6977B008E4CA0 /* AngularGradientLabelExampleTests */,
+				905510C61BF6977B008E4CA0 /* AngularGradientLabelExampleUITests */,
+				905510A51BF6977B008E4CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		905510A51BF6977B008E4CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905510A41BF6977B008E4CA0 /* AngularGradientLabelExample.app */,
+				905510B81BF6977B008E4CA0 /* AngularGradientLabelExampleTests.xctest */,
+				905510C31BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905510A61BF6977B008E4CA0 /* AngularGradientLabelExample */ = {
+			isa = PBXGroup;
+			children = (
+				905510A71BF6977B008E4CA0 /* AppDelegate.swift */,
+				905510A91BF6977B008E4CA0 /* ViewController.swift */,
+				905510AB1BF6977B008E4CA0 /* Main.storyboard */,
+				905510AE1BF6977B008E4CA0 /* Assets.xcassets */,
+				905510B01BF6977B008E4CA0 /* LaunchScreen.storyboard */,
+				905510B31BF6977B008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLabelExample;
+			sourceTree = "<group>";
+		};
+		905510BB1BF6977B008E4CA0 /* AngularGradientLabelExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				905510BC1BF6977B008E4CA0 /* AngularGradientLabelExampleTests.swift */,
+				905510BE1BF6977B008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLabelExampleTests;
+			sourceTree = "<group>";
+		};
+		905510C61BF6977B008E4CA0 /* AngularGradientLabelExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				905510C71BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.swift */,
+				905510C91BF6977B008E4CA0 /* Info.plist */,
+			);
+			path = AngularGradientLabelExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905510A31BF6977B008E4CA0 /* AngularGradientLabelExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905510CC1BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExample" */;
+			buildPhases = (
+				905510A01BF6977B008E4CA0 /* Sources */,
+				905510A11BF6977B008E4CA0 /* Frameworks */,
+				905510A21BF6977B008E4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngularGradientLabelExample;
+			productName = AngularGradientLabelExample;
+			productReference = 905510A41BF6977B008E4CA0 /* AngularGradientLabelExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		905510B71BF6977B008E4CA0 /* AngularGradientLabelExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905510CF1BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExampleTests" */;
+			buildPhases = (
+				905510B41BF6977B008E4CA0 /* Sources */,
+				905510B51BF6977B008E4CA0 /* Frameworks */,
+				905510B61BF6977B008E4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905510BA1BF6977B008E4CA0 /* PBXTargetDependency */,
+			);
+			name = AngularGradientLabelExampleTests;
+			productName = AngularGradientLabelExampleTests;
+			productReference = 905510B81BF6977B008E4CA0 /* AngularGradientLabelExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905510C21BF6977B008E4CA0 /* AngularGradientLabelExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905510D21BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExampleUITests" */;
+			buildPhases = (
+				905510BF1BF6977B008E4CA0 /* Sources */,
+				905510C01BF6977B008E4CA0 /* Frameworks */,
+				905510C11BF6977B008E4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905510C51BF6977B008E4CA0 /* PBXTargetDependency */,
+			);
+			name = AngularGradientLabelExampleUITests;
+			productName = AngularGradientLabelExampleUITests;
+			productReference = 905510C31BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9055109C1BF6977B008E4CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michele Gruppioni";
+				TargetAttributes = {
+					905510A31BF6977B008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					905510B71BF6977B008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 905510A31BF6977B008E4CA0;
+					};
+					905510C21BF6977B008E4CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 905510A31BF6977B008E4CA0;
+					};
+				};
+			};
+			buildConfigurationList = 9055109F1BF6977B008E4CA0 /* Build configuration list for PBXProject "AngularGradientLabelExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9055109B1BF6977B008E4CA0;
+			productRefGroup = 905510A51BF6977B008E4CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905510A31BF6977B008E4CA0 /* AngularGradientLabelExample */,
+				905510B71BF6977B008E4CA0 /* AngularGradientLabelExampleTests */,
+				905510C21BF6977B008E4CA0 /* AngularGradientLabelExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905510A21BF6977B008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905510B21BF6977B008E4CA0 /* LaunchScreen.storyboard in Resources */,
+				905510AF1BF6977B008E4CA0 /* Assets.xcassets in Resources */,
+				905510AD1BF6977B008E4CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510B61BF6977B008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510C11BF6977B008E4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905510A01BF6977B008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905510AA1BF6977B008E4CA0 /* ViewController.swift in Sources */,
+				905510A81BF6977B008E4CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510B41BF6977B008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905510BD1BF6977B008E4CA0 /* AngularGradientLabelExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905510BF1BF6977B008E4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905510C81BF6977B008E4CA0 /* AngularGradientLabelExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		905510BA1BF6977B008E4CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905510A31BF6977B008E4CA0 /* AngularGradientLabelExample */;
+			targetProxy = 905510B91BF6977B008E4CA0 /* PBXContainerItemProxy */;
+		};
+		905510C51BF6977B008E4CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905510A31BF6977B008E4CA0 /* AngularGradientLabelExample */;
+			targetProxy = 905510C41BF6977B008E4CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		905510AB1BF6977B008E4CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905510AC1BF6977B008E4CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905510B01BF6977B008E4CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905510B11BF6977B008E4CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		905510CA1BF6977B008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		905510CB1BF6977B008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905510CD1BF6977B008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngularGradientLabelExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		905510CE1BF6977B008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngularGradientLabelExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		905510D01BF6977B008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngularGradientLabelExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularGradientLabelExample.app/AngularGradientLabelExample";
+			};
+			name = Debug;
+		};
+		905510D11BF6977B008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngularGradientLabelExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularGradientLabelExample.app/AngularGradientLabelExample";
+			};
+			name = Release;
+		};
+		905510D31BF6977B008E4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngularGradientLabelExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngularGradientLabelExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		905510D41BF6977B008E4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngularGradientLabelExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michele-Gruppioni.AngularGradientLabelExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngularGradientLabelExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9055109F1BF6977B008E4CA0 /* Build configuration list for PBXProject "AngularGradientLabelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905510CA1BF6977B008E4CA0 /* Debug */,
+				905510CB1BF6977B008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905510CC1BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905510CD1BF6977B008E4CA0 /* Debug */,
+				905510CE1BF6977B008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		905510CF1BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905510D01BF6977B008E4CA0 /* Debug */,
+				905510D11BF6977B008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		905510D21BF6977B008E4CA0 /* Build configuration list for PBXNativeTarget "AngularGradientLabelExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905510D31BF6977B008E4CA0 /* Debug */,
+				905510D41BF6977B008E4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9055109C1BF6977B008E4CA0 /* Project object */;
+}
